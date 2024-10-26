@@ -1,5 +1,19 @@
-# Markdown Math
+# Markdown Math Custom
 
-**Notice:** This extension is bundled with Visual Studio Code. It can be disabled but not uninstalled.
+Customized markdown math syntaxes, compatible with Pandoc.
 
-Adds math rendering using [KaTeX](https://katex.org) to VS Code's built-in markdown preview and markdown cells in notebooks.
+## Install
+
+This extension is not planned to be published as now. You need to package it
+yourself using `vsce`.
+
+```sh
+npm install -g @vscode/vsce
+```
+
+You can package the extension into `.vsix` format.
+
+```sh
+cd <extension-path>
+vsce package
+```
