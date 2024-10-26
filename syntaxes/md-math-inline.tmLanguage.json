@@ -15,7 +15,7 @@
 	"repository": {
 		"math_inline_single": {
 			"name": "markup.math.inline.markdown",
-			"match": "(?<=\\s|\\W|^)(?<!\\$)(\\$)(.+?)(\\$)(?!\\$)(?=\\s|\\W|$)",
+			"match": "(?<!\\$)(\\$)(?!\\s)((?:[^$]|\\\\$)+?)(?<!\\\\|\\s)(\\$)(?!\\$|\\d)",
 			"captures": {
 				"1": {
 					"name": "punctuation.definition.math.begin.markdown"
