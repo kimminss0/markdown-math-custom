@@ -57,5 +57,9 @@
         }
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimminss0/markdown-math-custom.git"
   }
 }
